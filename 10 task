@@ -1,0 +1,24 @@
+/*
+Create a function that takes the number of wins, draws, and losses and calculates the number of points a football team has obtained so far.
+wins get 3 points
+draws get 1 point
+losses get 0 points
+Examples
+footballPoints(3, 4, 2) ➞ 13 
+footballPoints(5, 0, 2) ➞ 15 
+footballPoints(0, 0, 1) ➞ 0
+*/
+
+// my function: 
+
+const footballPoints = (w, d, l)=> {
+    
+    let win = w * 3;
+    let draw = d * 1;
+    let loose = l * 0;
+    let sumPoints = win + draw + loose;
+    
+    console.log(`the team has ${sumPoints} points`);
+}
+
+footballPoints(3, 4, 1);
