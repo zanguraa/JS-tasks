@@ -38,6 +38,8 @@ let some = "abg";
 let some1 = prompt("enter some letters");
 let some2 = prompt("more letters");
 sia.push(some);
+sia.push(some1);
+sia.push(some2);
 console.log(sia);
 
 
